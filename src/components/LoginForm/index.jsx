@@ -6,20 +6,20 @@ import CardForm from "../CardForm";
 const LoginForm = ({ onSubmit }) => {
   const { errors, isLoading, handleChange, handleSubmit } = useForm({
     initialValues: {
-      name: "",
+      email: "",
       password: "",
     },
     onSubmit,
-    validate: ({ name, password }) => {
+    validate: ({ email, password }) => {
       const newErrors = {};
-      if (!name) newErrors.name = "이름을 입력해주세요.";
+      if (!email) newErrors.name = "이름을 입력해주세요.";
       if (!password) newErrors.password = "비밀번호를 입력해주세요.";
       return newErrors;
     },
   });
 
   return (
-    <CardForm>
+    <CardForm onSubmit={handleSubmit}>
       <Input
         type="text"
         name="email"
