@@ -12,7 +12,7 @@ const LoginForm = ({ onSubmit }) => {
     onSubmit,
     validate: ({ email, password }) => {
       const newErrors = {};
-      if (!email) newErrors.name = "이름을 입력해주세요.";
+      if (!email) newErrors.email = "이메일을 입력해주세요.";
       if (!password) newErrors.password = "비밀번호를 입력해주세요.";
       return newErrors;
     },
