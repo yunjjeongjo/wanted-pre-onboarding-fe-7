@@ -8,7 +8,6 @@ export const onLogin = async ({ email, password }) => {
   const { data } = await login({ email, password });
   if (data) {
     setItem("ACCESS_TOKEN", data.access_token); // 로그인 성공 시, JWT 토큰 갱신
-  } else {
   }
   return data;
 };
