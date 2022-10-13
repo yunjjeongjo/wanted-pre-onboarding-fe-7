@@ -15,7 +15,7 @@ https://ephemeral-cheesecake-154002.netlify.app/
 ### 투두리스트
 ![녹화_2022_10_14_02_40_52_855](https://user-images.githubusercontent.com/93373357/195667775-29c21e27-d0a7-4d60-887e-56a270abd244.gif)
 ## 폴더 구조
-![image](https://user-images.githubusercontent.com/93373357/195668934-661a1388-b7ea-4550-afe6-f3ca538a26e7.png)
+![image](https://user-images.githubusercontent.com/93373357/195670282-86652dfc-6b72-4ef8-b2f1-2f35b350a455.png)
 ## 과제
 
 1. Assignment1
