@@ -1,9 +1,9 @@
-import Input from "../../basic/Input";
-import Button from "../../basic/Button";
-import useForm from "../../pages/hooks/useForm";
+import Input from "../basic/Input";
+import Button from "../basic/Button";
+import useForm from "../../hooks/useForm";
 import CardForm from "../CardForm";
 import styled from "@emotion/styled";
-import Text from "../../basic/Text";
+import Text from "../basic/Text";
 import { Link } from "react-router-dom";
 
 const Title = styled(Text)`

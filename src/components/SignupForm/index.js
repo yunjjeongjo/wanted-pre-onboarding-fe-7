@@ -1,10 +1,10 @@
-import Input from "../../basic/Input";
-import Button from "../../basic/Button";
-import useSignupForm from "../../pages/hooks/useSignupForm";
+import Input from "../basic/Input";
+import Button from "../basic/Button";
+import useSignupForm from "../../hooks/useSignupForm";
 import CardForm from "../CardForm";
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
-import Text from "../../basic/Text";
+import Text from "../basic/Text";
 
 const Title = styled(Text)`
   margin-bottom: 40px;

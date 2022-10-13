@@ -78,7 +78,6 @@ const TodoItem = ({ id, content, complete, ...props }) => {
           <Toggle
             on={complete}
             onChange={(e) => {
-              console.log("aa");
               updateTodos(id, e.target.checked, content, token);
             }}
           />

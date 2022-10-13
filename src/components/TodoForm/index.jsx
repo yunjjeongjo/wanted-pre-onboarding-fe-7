@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { useState } from "react";
-import Button from "../../basic/Button";
+import Button from "../basic/Button";
 import { useTodos } from "../../contexts/TodoProvider";
 import { getItem } from "../../utils/storage";
 

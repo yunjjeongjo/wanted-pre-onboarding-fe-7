@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import useLocalStorage from "../pages/hooks/useLocalStorage";
+import useLocalStorage from "../hooks/useLocalStorage";
 import {
   getTodo,
   createTodo,

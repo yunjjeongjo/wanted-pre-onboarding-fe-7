@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { getItem } from "../../utils/storage";
-import Text from "../../basic/Text";
+import Text from "../../components/basic/Text";
 import TodoForm from "../../components/TodoForm";
 import TodoList from "../../components/TodoList";
 
