@@ -4,6 +4,13 @@
 ## 배포 링크
 https://ephemeral-cheesecake-154002.netlify.app/
 
+## 실행
+
+```
+$ npm install
+$ npm start
+```
+
 ## 스택
 
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"> <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white">
@@ -15,7 +22,7 @@ https://ephemeral-cheesecake-154002.netlify.app/
 ### 투두리스트
 ![녹화_2022_10_14_02_40_52_855](https://user-images.githubusercontent.com/93373357/195667775-29c21e27-d0a7-4d60-887e-56a270abd244.gif)
 ## 폴더 구조
-![image](https://user-images.githubusercontent.com/93373357/195668934-661a1388-b7ea-4550-afe6-f3ca538a26e7.png)
+![image](https://user-images.githubusercontent.com/93373357/195670282-86652dfc-6b72-4ef8-b2f1-2f35b350a455.png)
 ## 과제
 
 1. Assignment1
