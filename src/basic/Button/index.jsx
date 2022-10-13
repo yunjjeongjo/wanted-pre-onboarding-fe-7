@@ -13,13 +13,13 @@ const Button = styled.button`
   box-sizing: border-box;
   cursor: pointer;
   &:hover {
-    background-color: #444;
-  }
-  &:active {
     background-color: #666;
   }
-  &:disabled {
+  &:active {
     background-color: #888;
+  }
+  &:disabled {
+    background-color: #999;
   }
 `;
 
