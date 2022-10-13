@@ -9,7 +9,7 @@ const LoginPage = () => {
 
   useEffect(() => {
     const token = getItem("ACCESS_TOKEN", null);
-    console.log(token);
+
     if (token) {
       navigate("/todo", { replace: true });
     }
@@ -30,7 +30,6 @@ const LoginPage = () => {
   return (
     <>
       <LoginForm onSubmit={handleSubmit}></LoginForm>
-      <Link to="/signup">계정이 없으신가요? 회원가입</Link>
     </>
   );
 };
