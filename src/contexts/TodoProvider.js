@@ -24,7 +24,6 @@ const TodoProvider = ({ children }) => {
   };
 
   const updateTodos = async (id, status, content, token) => {
-    console.log(id, status, content, token);
     const data = await updateTodo(id, token, content, status);
     setTodos(todos.map((item) => (item.id === id ? data.data : item)));
   };

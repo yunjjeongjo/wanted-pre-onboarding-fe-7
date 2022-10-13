@@ -2,27 +2,40 @@ import { useState } from "react";
 import Button from "../../basic/Button";
 import { useTodos } from "../../contexts/TodoProvider";
 import styled from "@emotion/styled";
+import { message } from "antd";
 
 const CancleButton = styled.button`
   width: 60px;
   height: 24px;
   margin-left: 8px;
-  color: white;
+  color: red;
   border-radius: 8px;
-  border: none;
-  background-color: red;
+  border: red 1px solid;
+  background-color: white;
   cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+    color: white;
+    border: none;
+    background-color: red;
+  }
 `;
 
 const SaveButton = styled.button`
   width: 60px;
   height: 24px;
-  margin-left: 70px;
-  color: white;
+  margin-left: 80px;
+  color: green;
   border-radius: 8px;
-  border: none;
-  background-color: green;
+  border: green 1px solid;
+  background-color: white;
   cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+    color: white;
+    border: none;
+    background-color: green;
+  }
 `;
 
 const StyledInput = styled.input`
@@ -45,7 +58,6 @@ const TodoEdit = ({ setIsEdit, todo, id, token, complete }) => {
   const { updateTodos } = useTodos();
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(id, complete, editTodo, token);
     updateTodos(id, complete, editTodo, token);
     setIsEdit(false);
   };
