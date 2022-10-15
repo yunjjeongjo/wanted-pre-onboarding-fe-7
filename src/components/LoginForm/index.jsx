@@ -46,7 +46,7 @@ const LinkText = styled(Link)`
 `;
 
 const LoginForm = ({ onSubmit }) => {
-  const { errors, isLoading, handleChange, handleSubmit } = useForm({
+  const { isLoading, handleChange, handleSubmit } = useForm({
     initialValues: {
       email: "",
       password: "",

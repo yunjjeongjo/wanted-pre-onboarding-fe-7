@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { useState } from "react";
-import Button from "../basic/Button";
 import { useTodos } from "../../contexts/TodoProvider";
 import { getItem } from "../../utils/storage";
 
@@ -45,7 +44,7 @@ const SubmitButton = styled.button`
 const TodoForm = (props) => {
   const [todo, setTodo] = useState("");
   const token = getItem("ACCESS_TOKEN", null);
-  const { addTodo, createTodos, getTodos } = useTodos();
+  const { createTodos } = useTodos();
 
   const handleSubmit = (e) => {
     e.preventDefault();

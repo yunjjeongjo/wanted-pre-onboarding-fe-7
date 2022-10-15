@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import TodoItem from "../TodoItem";
 import { useTodos } from "../../contexts/TodoProvider";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { getItem } from "../../utils/storage";
 
 const UnorderedList = styled.ul`
