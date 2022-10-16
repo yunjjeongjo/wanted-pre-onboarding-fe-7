@@ -1,5 +1,5 @@
 # 원티드 프리온보딩 프론트엔드 선발 과제
-이 repository는 원티드 프리온보딩 프론트엔드 선발 과제 제출용 저장소 입니다.
+이 repository는 원티드 프리온보딩 프론트엔드 코스 선발 과제 제출용 저장소 입니다.
 
 ## 배포 링크
 https://ephemeral-cheesecake-154002.netlify.app/
